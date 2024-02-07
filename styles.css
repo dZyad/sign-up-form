@@ -27,6 +27,24 @@ aside {
     padding: 3rem;
 }
 
+#logo img {
+    width: 5dvw;
+}
+
+#photo-credit {
+    position: absolute;
+    color: #fdfdfd;
+    bottom: 10px;
+    left: 10px;
+}
+
+#photo-credit a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
 main {
     padding-left: 50px;
     display: flex;
