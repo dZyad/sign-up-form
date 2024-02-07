@@ -4,38 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Magic Academy Sign up form</title>
 </head>
 <body>
-    <div id="logo">
-        <img src="" alt="Placeholder">
-        <h1>Logo</h1>
-    </div>
-    <section><p>
-        This is not a real online service! You know you need something
-        like this in your life to help you realize your deepest dreams. Sign
-        up <em>now</em> to get started.</p>
-        <p>You <em>know</em> you want to</p>
-    </section>
-    <form action="">
-        <fieldset>
-            <legend>Let's do this!</legend>
-            <label for="first_name">FIRST NAME</label>
-            <input type="text" id="first_name" name="first_name">
-            <label for="last_name">LAST NAME</label>
-            <input type="text" id="last_name" name="last_name">
-            <label for="email">EMAIL</label>
-            <input type="email" id="email" name="email">
-            <label for="phone_number">PHONE NUMBER</label>
-            <input type="tel" id="phone_number" name="phone_number">
-            <label for="password">PASSWORD</label>
-            <input type="password" name="password" id="password">
-            <label for="confirm_password">CONFIRM PASSWORD</label>
-            <input type="password" name="confirm_password" id="confirm_password">
-        </fieldset>
-        <button type="submit">Create Account</button>
-        <p id="log_in">Already have an account? <a href="#" onclick="alert('You definitely don\'t have an account!');">Log in</a></p>
+    <aside>
+        <div id="logo">
+            <img src="" alt="Placeholder">
+            <h1>Magic Academy</h1>
+        </div>
+    </aside>
+    <main>
+        <article>
+            <p>This is not a real online service! You know you need something
+                like this in your life to help you realize your deepest dreams. Sign
+                up <em>now</em> to get started.</p>
+            <p>Only works if you are <em>worthy</em> mage</p>
+        </article>
+        <form action="">
+            <fieldset>
+                <legend>Let's do this!</legend>
+                <div class="field">
+                    <label for="first_name">FIRST NAME</label>
+                    <input type="text" id="first_name" name="first_name">
+                </div>
+                <div class="field">
+                    <label for="last_name">LAST NAME</label>
+                    <input type="text" id="last_name" name="last_name">
+                </div>
+                <div class="field">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="field">
+                    <label for="phone_number">PHONE NUMBER</label>
+                    <input type="tel" id="phone_number" name="phone_number">
+                </div>
+                <div class="field">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <div class="field">
+                    <label for="confirm_password">CONFIRM PASSWORD</label>
+                    <input type="password" name="confirm_password" id="confirm_password">
+                </div>
+            </fieldset>
+            <button type="submit" onclick="alert('You are not worthy as a wizard, but don\'t worry you are AWESOME')">Create Account</button>
+            <p id="log_in">Already have an account? <a href="#" onclick="alert('You definitely don\'t have an account!');">Log in</a></p>
 
-    </form>
+        </form>
+    </main>
 </body>
 </html>

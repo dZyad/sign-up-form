@@ -1,3 +1,21 @@
-p {
-    color: red;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    height: 100dvh;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+}
+
+#logo {
+    justify-items: center;
+    width: 40dvw;
+    display: flex;
+    background: rgba(50, 50, 50, 0.1);
+    padding: 3rem;
 }
