@@ -6,23 +6,33 @@
 
 body {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     height: 100vh;
     font-family: "Helvetica", "Arial", sans-serif;
     font-size: 16px;
     background: #f0f0f0;
 }
 
+aside {
+    display: flex;
+    align-items: center;
+    background-image: url(media/magic-background.jpg);
+}
+
 #logo {
     justify-items: center;
     width: 40dvw;
     display: flex;
-    background: rgba(50, 50, 50, 0.1);
+    background: rgba(230, 30, 30, 0.5);
     padding: 3rem;
 }
 
 main {
     padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
 }
 
 #presentation {
