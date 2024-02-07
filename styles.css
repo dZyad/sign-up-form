@@ -7,9 +7,10 @@
 body {
     display: flex;
     align-items: center;
-    height: 100dvh;
+    height: 100vh;
     font-family: "Helvetica", "Arial", sans-serif;
     font-size: 16px;
+    background: #f0f0f0;
 }
 
 #logo {
@@ -18,4 +19,36 @@ body {
     display: flex;
     background: rgba(50, 50, 50, 0.1);
     padding: 3rem;
+}
+
+main {
+    padding-left: 50px;
+}
+
+#presentation {
+    width: 40dvw;
+    font-size: 1.5rem;
+}
+
+#presentation p + p{
+    margin-top: 20px;
+}
+
+fieldset{
+    margin-left: -50px;
+    padding-left: 50px;
+    padding-bottom: 1rem;
+    background: #fdfdfd;
+    border: none;
+    width: 60dvw;
+}
+
+legend {
+    padding-top: 50px;
+    font-size: 1.5rem;
+    text-align: end;
+}
+
+button {
+    margin: 2rem 0;
 }
