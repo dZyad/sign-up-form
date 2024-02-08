@@ -20,6 +20,7 @@ aside {
     display: flex;
     align-items: center;
     background-image: url(media/magic-background.jpg);
+    background-size: cover;
 }
 
 #logo {
@@ -27,18 +28,19 @@ aside {
     color: #f0f0f0;
     width: 40dvw;
     display: flex;
-    background: rgba(230, 30, 30, 0.5);
+    background: rgba(0, 0, 0, 0.2);
     padding: 3rem;
+    align-self: center;
 }
 
 #logo h1 {
     font-family: 'Protest Revolution', sans-serif;
-    font-size: 2dvw;
-    padding-left: 1rem;
+    font-size: 6dvw;
 }
 
 #logo img {
-    width: 2dvw;
+    width: 6dvw;
+    margin-left: 100px;
 }
 
 #photo-credit {
