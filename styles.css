@@ -63,7 +63,7 @@ main {
 
 #presentation {
     width: 40dvw;
-    font-size: 1.4rem;
+    font-size: clamp(12px, 1.5rem, 3rem);
     font-weight: bold;
 }
 
@@ -119,5 +119,19 @@ legend {
 }
 
 button {
+    color: purple;
+    font-size: 1.5rem;
     margin: 2rem 0;
+    padding: 20px;
+    border-radius: 15px;
+    border: purple solid 3px;
+}
+
+button:hover {
+    background-color: purple;
+    color: #E5E7EB;
+}
+
+form p {
+    font-size: 1rem;
 }
