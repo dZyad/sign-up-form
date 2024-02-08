@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +12,7 @@ body {
     align-items: stretch;
     height: 100vh;
     font-family: "Helvetica", "Arial", sans-serif;
-    font-size: 16px;
+    font-size: 12px;
     background: #f0f0f0;
 }
 
@@ -21,14 +24,21 @@ aside {
 
 #logo {
     justify-items: center;
+    color: #f0f0f0;
     width: 40dvw;
     display: flex;
     background: rgba(230, 30, 30, 0.5);
     padding: 3rem;
 }
 
+#logo h1 {
+    font-family: 'Protest Revolution', sans-serif;
+    font-size: 2dvw;
+    padding-left: 1rem;
+}
+
 #logo img {
-    width: 5dvw;
+    width: 2dvw;
 }
 
 #photo-credit {
@@ -43,8 +53,6 @@ aside {
     color: inherit;
 }
 
-
-
 main {
     padding-left: 50px;
     display: flex;
@@ -55,7 +63,7 @@ main {
 
 #presentation {
     width: 40dvw;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 #presentation p + p{
@@ -63,18 +71,45 @@ main {
 }
 
 fieldset{
+    height: 30dvh;
     margin-left: -50px;
     padding-left: 50px;
-    padding-bottom: 1rem;
     background: #fdfdfd;
     border: none;
     width: 60dvw;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    width: 20dvw;
+    align-items: start;
+    padding-right: 20px;
+}
+
+.field>label {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    letter-spacing: 4px;
+    padding-bottom: 2px;
+    color: #222;
+}
+
+input {
+    width: 100%;
+    font-size: 1.4rem;
+    border-radius: 5px;
 }
 
 legend {
-    padding-top: 50px;
-    font-size: 1.5rem;
-    text-align: end;
+    font-size: 1.4rem;
+    position: relative;
+    top: 20px;
 }
 
 button {
