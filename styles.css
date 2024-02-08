@@ -63,7 +63,8 @@ main {
 
 #presentation {
     width: 40dvw;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
+    font-weight: bold;
 }
 
 #presentation p + p{
@@ -97,17 +98,22 @@ fieldset{
     font-weight: 900;
     letter-spacing: 4px;
     padding-bottom: 2px;
-    color: #222;
+    color: #444;
 }
 
 input {
     width: 100%;
-    font-size: 1.4rem;
-    border-radius: 5px;
+    padding: 6px;
+    border-radius: 10px;
+    border: 1px solid #E5E7EB;
+}
+
+input:focus {
+    border: 2px solid lightblue;
 }
 
 legend {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     position: relative;
     top: 20px;
 }
